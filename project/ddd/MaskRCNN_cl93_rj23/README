@@ -1,0 +1,23 @@
+############
+This code is for the Kaggle 2018 Data Science Bowl challenge
+(https://www.kaggle.com/c/data-science-bowl-2018)
+
+Reference: 
+mssk rcnn code from Waleed Abdulla
+https://github.com/matterport/Mask_RCNN
+image augmentation
+http://imgaug.readthedocs.io/en/latest/source/augmenters.html
+
+
+############
+## To test the model mcnn_ddd.h5 on the stage2_test dataset
+python data_science_bowl.py detect --dataset=dataset --subset=stage2_test --weights=mcnn_ddd.h5
+## Here we should assigne the path to the dataset to --dataset
+
+############
+## To train a new model using pre-trained ImageNet or coco weights on the stage1_train dataset
+python data_science_bowl.py train --dataset=dataset --subset=stage1_train --weights=imagenet
+or
+python data_science_bowl.py train --dataset=dataset --subset=stage1_train --weights=coco
+
+

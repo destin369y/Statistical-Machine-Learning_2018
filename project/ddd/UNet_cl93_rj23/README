@@ -1,0 +1,19 @@
+############
+This code is for the Kaggle 2018 Data Science Bowl challenge
+(https://www.kaggle.com/c/data-science-bowl-2018)
+
+Reference: 
+U-net implementation
+https://www.kaggle.com/raoulma/nuclei-dsb-2018-tensorflow-u-net-score-0-352
+
+
+############
+Upload the code to Google Colab and run it. Here are the steps: 
+	1. As I have said in our report, I have divided stage 2 test images (3000 of them) into 20 files 
+		since uploading about 150 images to Google Colab is the max. 
+		(Stage 1 test is fine, but stage 2 test file is too big). 
+		In order to get the final csv file, I had to combine all twenty csv’s generated manually.
+	2. Also, the directory setting is set to be where my stage 2 test image belongs on my own laptop. 
+		You might want to change it if it belongs to a different folder. 
+	3. Finally, run the code in the jupyter notebook and it should generate the csv file and download it. 
+
